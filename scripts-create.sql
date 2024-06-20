@@ -4,8 +4,6 @@ CREATE TYPE coworking.workspace_status AS ENUM ('Available', 'Unavailable');
 CREATE TABLE coworking.rooms (
     room_id SERIAL PRIMARY KEY,
     name VARCHAR(50) NOT NULL,
-    rows INTEGER NOT NULL,
-    columns INTEGER NOT NULL
 );
 
 
